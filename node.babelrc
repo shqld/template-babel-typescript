@@ -1,0 +1,8 @@
+{
+  "presets": [
+    ["@babel/env", { "targets": { "node": "current" } }],
+    ["@babel/typescript"]
+  ],
+  "comments": false,
+  "sourceMaps": true
+}

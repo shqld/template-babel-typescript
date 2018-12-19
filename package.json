@@ -1,0 +1,33 @@
+{
+  "name": "template-babel-typescript",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "server:dev": "BABEL_ENV=node nodemon server/index.ts",
+    "browser:dev": "BABEL_ENV=browser parcel client/index.html",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "@types/node": "^9.6.40",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "html-loader": "^0.5.5",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "parcel": "^1.10.3",
+    "types-serviceworker": "^0.0.1",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

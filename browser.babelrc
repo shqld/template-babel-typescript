@@ -1,0 +1,8 @@
+{
+  "presets": [
+    ["@babel/env", { "targets": { "chrome": "77" } }],
+    ["@babel/typescript"]
+  ],
+  "comments": false,
+  "sourceMaps": true
+}

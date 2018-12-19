@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [],
+  "extentension": ".ts",
+  "execMap": {
+    "js": "yarn webpack && node -r ./register",
+    "ts": "yarn webpack && node -r ./register"
+  }
+}
